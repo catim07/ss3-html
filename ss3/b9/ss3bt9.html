@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eggplant</title>
+    </head>
+    <body>
+        <form action="http://www.catim.com" method="post">
+            <label for="username">Họ và tên:</label>
+            <input type="text" id="username" name="hoten">
+            <br>
+            <label for="dob">Ngày sinh:</label>
+            <input type="date" id="dob" name="ngaysinh">
+            <br>
+            <label>Giới tính:</label>
+            <input type="radio" id="nam" name="gioitinh" value="Nam">
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="Nữ">
+            <label for="nu">Nữ</label>
+            <br>
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="sodienthoai">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="address">Địa chỉ:</label>
+            <textarea id="address" name="diachi"></textarea>
+            <br>
+            <label for="role">Vai trò trong nhóm:</label>
+            <select id="role" name="vaitro">
+                <option value="thanh_vien">Thành viên</option>
+            </select>
+            <br>
+            <label for="hobby">Sở thích:</label>
+            <input type="text" id="hobby" name="sothich">
+            <br>
+            <label for="skills">Kỹ năng:</label>
+            <textarea id="skills" name="kynang"></textarea>
+            <br>
+            <label>Thời gian rảnh:</label>
+            <input type="checkbox" name="thoigianranh" value="Sáng"> Sáng
+            <input type="checkbox" name="thoigianranh" value="Chiều"> Chiều
+            <input type="checkbox" name="thoigianranh" value="Tối"> Tối
+            <br>
+            <label for="reason">Lý do tham gia nhóm:</label>
+            <textarea id="reason" name="lydo"></textarea>
+            <br>
+            <label for="color">Màu yêu thích:</label>
+            <input type="color" id="color" name="mauyeuthich" value="#000000">
+            <br>
+            <label for="newsletter">Đăng ký nhận bản tin:</label>
+            <input type="checkbox" id="newsletter" name="dangkybantin" value="Có">
+            <br>
+            <label>Nhận thông báo qua:</label>
+            <input type="radio" id="emailnotify" name="nhanthongbao" value="Email">
+            <label for="emailnotify">Email</label>
+            <input type="radio" id="smsnotify" name="nhanthongbao" value="SMS">
+            <label for="smsnotify">SMS</label>
+            <br>
+            <button type="submit">Đăng ký thành viên</button>
+        </form>
+    </body>
+</html>

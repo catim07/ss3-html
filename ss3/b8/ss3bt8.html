@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eggplant</title>
+    </head>
+    <body>
+        <main>
+            <form action="htpp:www.catim.com" method="post">
+                <label for="username">Họ và tên: &nbsp;&nbsp;</label>
+                <input type="text" name="họ và tên" id="username">
+                <br>
+                <label for="dob">ngày sinh:&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="dob" name="ngày sinh">
+                <br>
+                <label for="sex">giới tính:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="giới tính" id="nam" value="nam">
+                <label for="nam">Nam</label>
+                <input type="radio" name="giới tính" id="nu" value="nữ">
+                <label for="nu"> nữ</label>
+                <br>
+                <label for="cccd">Căn cước công dân: &nbsp;&nbsp;</label>
+                <input type="text" name="cccd" id="cccd" pattern="(0-9){12}" min="12" max="12">
+                <br>
+                <label for="ngaycap">ngày cấp:&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="ngaycap" name="ngày cấp">
+                <br>
+                <label for="noicap">nơi cấp: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="nơi cấp" id="noicap">
+                <br>
+                <label for="numphone">Số điện thoại: &nbsp;&nbsp;</label>
+                <input type="numphone" name="số điện thoại" id="numphone">
+                <br>
+                <label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="address thường trú">Địa chỉ thường trú: </label>
+                <textarea name="địa chỉ thường trú" id="address thường trú"></textarea>
+                <br>
+                <label for="address tạm trú">Địa chỉ tạm trú: </label>
+                <textarea name="địa chỉ tạm trú" id="address tạm trú"></textarea>
+                <br>
+                <label for="loaicccd">giới tính:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="loại cccd" id="nam" value="Căn cước công dân mới">
+                <label for="mới">Căn cước công dân mới</label>
+                <input type="radio" name="loại cccd" id="cu" value="Căn cước công dân cũ">
+                <label for="cu">Căn cước công dân cũ</label>
+                <br>
+                <label for="dantoc">dân tộc: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="dân tộc" id="dantoc">
+                <br>
+                <label for="tongiao">tôn giáo: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="tôn giáo" id="tongiao">
+                <br>
+                <label for="quoctich">quốc tịch: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="quốc tịch" id="quoctich" value="Việt Nam">
+                <br>
+                <label for="hotenchame">Họ tên cha/mẹ: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="Họ tên cha/mẹ" id="hotenchame">
+                <br>
+                <label for="cccdchame">Căn cước công dân cha/mẹ: &nbsp;&nbsp;</label>
+                <input type="text" name="cccd cha/mẹ" id="cccdchame" pattern="(0-9){12}" min="12" max="12">
+                <br>
+                <label for="tinhthanhpho">Tỉnh thành phố: </label>
+                <select name="tỉnh/thành phố" id="tinhthanhpho">
+                    <option value="long an">long an</option>
+                    <option value="thủ đức">thủ đức</option>
+                    <option value="tiền giang">tiền giang</option>
+                    <option value="hà nội">hà nội</option>
+                    <option value="huế">huế</option>
+                    <option value="cao bằng">cao bằng</option>
+                </select>
+                <br>
+                <button>Gửi thông tin</button>
+            </form>
+        </main>
+    </body>
+</html>

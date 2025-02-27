@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>eggplant</title>
+    </head>
+    <body>
+        <main>
+            <form action="htpp:www.catim.com" method="post">
+                <label for="username">Họ và tên: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="họ và tên" id="username">
+                <br>
+                <label for="email">Email: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="email" name="email" id="email">
+                <br>
+                <label for="dob">ngày sinh:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="date" id="dob" name="ngày sinh">
+                <br>
+                <label for="sex">giới tính:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="radio" name="giới tính" id="nam" value="nam">
+                <label for="nam">Nam</label>
+                <input type="radio" name="giới tính" id="nu" value="nữ">
+                <label for="nu"> nữ</label>
+                <br>
+                <label for="numphone">Số điện thoại: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="numphone" name="số điện thoại" id="numphone">
+                <br>
+                <label for="major">Chuyên ngành: &nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="text" name="chuyên ngành" id="major">
+                <br>
+                <label for="year">năm nhập học: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <input type="number" id="year" name="năm nhập học" min="2000" max="2100">
+                <br>
+                <label for="gpa">Điểm GPA:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+                <input type="number" id="gpa" name="GPA" min="1.0" max="4.0" step="0.1">
+                <br>
+                <label for="address">Địa chỉ: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <textarea name="địa chỉ" id="address"></textarea>
+                <br>
+                <label for="class">Lớp học:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+                <select name="lớp học" id="class">
+                    <option value="lớp 1">lớp 1</option>
+                    <option value="lớp 2">lớp 2</option>
+                    <option value="lớp 3">lớp 3</option>
+                    <option value="lớp 4">lớp 4</option>
+                    <option value="lớp 5">lớp 5</option>
+                    <option value="lớp 6">lớp 6</option>
+                    <option value="lớp 7">lớp 7</option>
+                    <option value="lớp 8">lớp 8</option>
+                </select>
+                <br>
+                <label for="ngaydangki">Ngày đăng kí học:</label>
+                <input type="datetime-local" name="ngày đăng kí học" id="ngaydangki">
+                <br>
+                <button>Gửi thông tin</button>
+            </form>
+        </main>
+    </body>
+</html>

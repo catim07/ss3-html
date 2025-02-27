@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Đăng ký hội viên</title>
+    </head>
+    <body>
+        <form action="http://www.catim.com" method="post">
+            <label for="username">Họ và tên:</label>
+            <input type="text" id="username" name="hoten">
+            <br>
+            <label for="dob">Ngày sinh:</label>
+            <input type="date" id="dob" name="ngaysinh">
+            <br>
+            <label>Giới tính:</label>
+            <input type="radio" id="nam" name="gioitinh" value="Nam">
+            <label for="nam">Nam</label>
+            <input type="radio" id="nu" name="gioitinh" value="Nữ">
+            <label for="nu">Nữ</label>
+            <br>
+            <label for="phone">Số điện thoại:</label>
+            <input type="tel" id="phone" name="sodienthoai">
+            <br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+            <br>
+            <label for="company">Tên công ty:</label>
+            <input type="text" id="company" name="tencongty">
+            <br>
+            <label for="role">Vai trò trong công ty:</label>
+            <select id="role" name="vaitro">
+                <option value="ceo">Giám đốc điều hành (CEO)</option>
+            </select>
+            <br>
+            <label for="size">Quy mô công ty:</label>
+            <select id="size" name="quymo">
+                <option value="small">Doanh nghiệp nhỏ</option>
+            </select>
+            <br>
+            <label for="industry">Ngành nghề công ty:</label>
+            <input type="text" id="industry" name="nganhnghe">
+            <br>
+            <label for="reason">Lý do tham gia câu lạc bộ:</label>
+            <textarea id="reason" name="lydo"></textarea>
+            <br>
+            <label for="experience">Kinh nghiệm lãnh đạo:</label>
+            <textarea id="experience" name="kinhnghiem"></textarea>
+            <br>
+            <label for="goal">Mục tiêu khi tham gia câu lạc bộ:</label>
+            <textarea id="goal" name="muctieu"></textarea>
+            <br>
+            <label>Chương trình sự kiện mong muốn tham gia:</label>
+            <input type="checkbox" name="event" value="Networking"> 
+            <label for="">Networking</label>
+            <input type="checkbox" name="event" value="Workshops">
+            <label for="">Workshops</label>
+            <input type="checkbox" name="event" value="Hội thảo">
+            <label for="">Hội thảo</label>
+            <br>
+            <label for="newsletter">Đăng ký nhận bản tin:</label>
+            <input type="checkbox" id="newsletter" name="dangkybantin" value="Có"> Có
+            <br>
+            <button type="submit">Đăng ký hội viên</button>
+        </form>
+    </body>
+</html>
